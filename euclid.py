@@ -6,7 +6,7 @@ if a<b:
     y=b%a
     while y!=0 and a!=0:
         if a<y:
-            y=y&a
+            y=y%a
         else:
             a=a%y
     if a<y:
@@ -17,7 +17,7 @@ else:
     y=a%b
     while y!=0 and b!=0:
         if b<y:
-            y=y&b
+            y=y%b
         else:
             b=b%y
     if b<y:

@@ -6,8 +6,10 @@ from math import pi
 # -----------
 k=1
 T=0
+b=pi/2
+n=100
 while k<=100:
-    h=pi/(2*100)
+    h=b/n
     s=(h/2)*(sin((k-1)*h)+sin(k*h))
     T+=s
     k+=1
